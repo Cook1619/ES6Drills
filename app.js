@@ -42,6 +42,9 @@ let name = "Matt";
 
 let getName = (str) => {
     let arr2 = [...str];
-
+    //loops through each each in the string
+    for (var i = 0; i < arr2.length; i++){
+        console.log(arr2[i]);
+    }
 }
 getName(name);

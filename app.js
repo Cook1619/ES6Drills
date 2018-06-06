@@ -32,6 +32,16 @@ console.log(getFirstName2('Matt Cook'))
 console.log(`${newFunc.squared} ${newFunc.product}`);
 
 let spreadFunc = (name, location, favFood) =>{
-
+    return (name, location, favFood);
 } 
 let arr1 = ['Matt','Mayer','Mexican']
+
+spreadFunc(...arr1);
+
+let name = "Matt";
+
+let getName = (str) => {
+    let arr2 = [...str];
+
+}
+getName(name);
